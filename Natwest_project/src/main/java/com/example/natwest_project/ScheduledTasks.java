@@ -16,6 +16,10 @@ public class ScheduledTasks {
         this.reportGenerationService = reportGenerationService;
     }
 
+    //@Scheduled(cron = "0 30 14 * * ?") - At 14:30 (2:30 PM) every day
+    //@Scheduled(cron = "0 15 7 ? * MON") - At 07:15 (7:15 AM) every Monday 
+    // Can also use above schedular 
+    
     @Scheduled(cron = "0 0 * * * ?")  // Run every hour
     public void scheduleReportGeneration() {
         logger.info("Scheduled report generation triggered.");

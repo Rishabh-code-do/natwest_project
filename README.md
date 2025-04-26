@@ -17,7 +17,7 @@ A full-stack application to collect and display user feedback using **Node.js (E
 - [Frontend Routes](#frontend-routes)
 - [Database Setup](#database-setup)
 - [Technologies Used](#technologies-used)
-- [Future Improvements](#future-improvemts)
+- [Future Improvements](#future-improvements)
 
 ---
 

@@ -12,12 +12,12 @@ A full-stack application to collect and display user feedback using **Node.js (E
 
 - [Getting Started](#getting-started)
 - [Backend Setup](#backend-setup)
-- [Backend API Endpoints](#backend-api-endpoints)
 - [Frontend Setup](#frontend-setup)
+- [Backend API Endpoints](#backend-api-endpoints)
 - [Frontend Routes](#frontend-routes)
-- [Notes](#notes)
+- [Database Setup](#database-setup)
 - [Technologies Used](#technologies-used)
-- [Author](#author)
+- [Future Scope](#future-scopes)
 
 ---
 

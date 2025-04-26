@@ -48,6 +48,7 @@ cd backend
 
 ```bash
 npm install
+npm install cors express dotenv
 ```
 
 3. Run the code
@@ -72,6 +73,8 @@ cd frontend
 
 ```bash
 npm install
+npm install react-router-dom
+npm intall axios
 ```
 
 3. Run the code
@@ -197,9 +200,9 @@ mongodb://localhost:27017
 
 # Future Improvements
 
-- Right now we are using search feature at frontend for particular paginated data. In future we can add this search feature at backend using Trie and Hasmap to search data at backend and get all data in paginated api.
+- Right now we are using search feature at frontend for particular paginated data. In future we can add this search feature at backend using Trie and Hashmap to search data at backend and get all data in paginated api.
 
-- 
+
 
 
 

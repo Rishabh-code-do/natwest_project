@@ -17,7 +17,7 @@ A full-stack application to collect and display user feedback using **Node.js (E
 - [Frontend Routes](#frontend-routes)
 - [Database Setup](#database-setup)
 - [Technologies Used](#technologies-used)
-- [Future Scope](#future-scopes)
+- [Future Improvements](#future-improvemts)
 
 ---
 
@@ -122,9 +122,19 @@ GET /api/feedback?category=bug&sortField=date&sortOrder=asc&page=1&limit=10
 - `/dashboard` — Dashboard (View feedback with filter and sort options)
 ```
 
+# Database Setup
+
 # Notes
 
 - Ensure both backend and frontend servers are running at the same time.
+
+# Technologies Used
+
+# Future Improvements
+
+
+
+
 
 
 

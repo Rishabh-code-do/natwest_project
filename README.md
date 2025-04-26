@@ -178,10 +178,10 @@ mongodb://localhost:27017
 - Inside the mongosh shell:
 
   ```bash
-  use feedbackDB
+  use feedback_db
   ```
 
-- This will create (or switch to) a database named feedbackDB.
+- This will create (or switch to) a database named feedback_db.
 
 # Notes
 
@@ -197,7 +197,9 @@ mongodb://localhost:27017
 
 # Future Improvements
 
+- Right now we are using search feature at frontend for particular paginated data. In future we can add this search feature at backend using Trie and Hasmap to search data at backend and get all data in paginated api.
 
+- 
 
 
 

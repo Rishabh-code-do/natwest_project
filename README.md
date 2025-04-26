@@ -124,11 +124,76 @@ GET /api/feedback?category=bug&sortField=date&sortOrder=asc&page=1&limit=10
 
 # Database Setup
 
+## 1. Install MongoDB
+
+- Download MongoDB Community Server from the official website:  
+  [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)
+
+- Follow the installation instructions for your operating system (Windows, macOS, Linux).
+
+## 2. Start MongoDB Server
+
+After installation, start the MongoDB server.
+
+- On Windows:
+
+```bash
+"C:\Program Files\MongoDB\Server\6.0\bin\mongod.exe"
+```
+
+- On Mac(Homebrew):
+
+```bash
+brew services start mongodb-community@6.0
+```
+
+- On linux:
+
+```bash
+sudo systemctl start mongod
+```
+
+- MongoDB server will run by default at:
+
+```bash
+mongodb://localhost:27017
+```
+
+## 3. Verify MongoDB is Running
+
+- Check if MongoDB is running by connecting with the Mongo shell:
+
+  ```bash
+  mongosh
+  ```
+
+- If connected successfully, you'll see a prompt like:
+
+  ```bash
+  test>
+  ```
+
+## 4. Create a New Database
+
+- Inside the mongosh shell:
+
+  ```bash
+  use feedbackDB
+  ```
+
+- This will create (or switch to) a database named feedbackDB.
+
 # Notes
 
 - Ensure both backend and frontend servers are running at the same time.
 
 # Technologies Used
+
+- Backend: Node.js, Express.js
+
+- Frontend: React.js
+
+- Database: MongoDB / PostgreSQL
 
 # Future Improvements
 

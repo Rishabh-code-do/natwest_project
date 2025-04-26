@@ -115,6 +115,19 @@ GET /api/feedback?category=bug&sortField=date&sortOrder=asc&page=1&limit=10
 ```
 
 
+# Frontend Routes
+
+```bash
+- `/` — Feedback Form (Submit feedback)
+- `/dashboard` — Dashboard (View feedback with filter and sort options)
+```
+
+# Notes
+
+- Ensure both backend and frontend servers are running at the same time.
+
+
+
 
 
 
